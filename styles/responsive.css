@@ -1,0 +1,53 @@
+/* la partie responsive mobile */
+@media screen and (max-width: 665px) {
+    .section-nav {
+      border-bottom: #9CAFC7 solid 1px;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  
+    .block-menu-hamburger {
+      width: 35px;
+      display: block;
+    }
+  
+    .block-menu{
+      width: auto;
+      text-align: center;
+      display:flex;
+      flex-direction: column;
+      position: relative;
+      top: 135px;
+      /* left: 238px; */
+      background: #fff;
+      border-radius: 5px;
+      display: flex;
+      padding: 10px;
+      margin-right: 5px;
+  
+    }
+    .nav-menu-item {
+      margin-bottom: 5px;
+    }
+   
+    .nav-menu-item::after {
+      content: '';
+      display: none;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .section-header {
+      height: 60%;
+    }
+    .block-menu{
+      left: 80px;
+    
+  
+    }
+  }
+  @media screen and (max-width: 330px) {
+    .block-menu{
+      left: 60px;
+    }
+  
+  }
