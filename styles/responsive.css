@@ -47,8 +47,13 @@
       background-image: url("../images/br.jpg");
       background-position: center;
       background-size: cover;
+      
+    }
+    .section-header .btn-download-cv {
+      display: none;
     }
   }
+
   @media screen and (max-width: 420px) {
     .section-header {
       height: 60%;
@@ -59,6 +64,7 @@
   
     }
   }
+
   @media screen and (max-width: 330px) {
     .block-menu{
       left: 60px;

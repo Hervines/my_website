@@ -11,4 +11,4 @@ Window.addEventListener('resize', () => {
     if (window.innerWidth > 665) {
         blockMenuItems.classList.remove('block-menu-visible');
     }
-})
+}) 
